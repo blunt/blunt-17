@@ -1,0 +1,28 @@
+{
+  "name": "blunt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blunt/blunt"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blunt/blunt/issues"
+  },
+  "homepage": "https://github.com/blunt/blunt#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^1.2.2",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-easy-import": "^1.0.1",
+    "postcss-simple-grid": "^0.7.1"
+  }
+}
