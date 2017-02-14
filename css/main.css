@@ -660,11 +660,12 @@ a {
     color: #000;
     text-decoration: none;
     padding-bottom: 3px;
-    border-bottom: 1px solid black
+    border-bottom: 1px solid black;
+    transition: border-color .15s ease-in-out
 }
 
 a:hover {
-  border: none;
+  border-color: #fff;
 }
 
 em {
@@ -710,6 +711,7 @@ code {
 
 .subtitle {
     margin-top: 30px;
+    margin-bottom: 200px;
 }
 
 .tagline {
@@ -717,7 +719,6 @@ code {
 }
 
 .description {
-    margin-top: 200px
 }
 
 .description ol {
@@ -742,11 +743,6 @@ code {
 
 .contact h6 {
   margin-top: 45px;
-}
-
-.cta a {
-    padding-bottom: 0;
-    border-bottom: none;
 }
 
 .small--1 {

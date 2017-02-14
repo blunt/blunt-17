@@ -1,6 +1,4 @@
 .description {
-    margin-top: 200px;
-
     & ol {
         list-style: none;
         padding-left: 0;
