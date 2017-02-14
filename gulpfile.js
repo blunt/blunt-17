@@ -11,7 +11,7 @@ gulp.task('css', function () {
     var processors = [
         easyImport,
         simpleGrid({separator: ['--']}),
-        cssnext({browsers: ['last 1 version']})
+        cssnext({browsers: ['last 2 version', 'safari 5', 'ie 9', 'opera 12.1', 'ios 6', 'android 4']})
     ];
     return gulp.src('./src/_*.css')
         .pipe(postcss(processors))
