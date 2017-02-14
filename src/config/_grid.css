@@ -14,17 +14,20 @@ html {
 }
 
 .small {
-    create-grid: 6;
+    create-grid: 3;
 }
 
 @media (--b-tablet) {
     .medium {
-        create-grid: 12;
+        create-grid: 4;
     }
 }
 
 @media (--b-laptop) {
     .large {
-        create-grid: 18;
+        create-grid: 8;
+    }
+    .large-push {
+        create-push: 8;
     }
 }

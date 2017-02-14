@@ -1,0 +1,14 @@
+.description {
+    margin-top: 200px;
+
+    & ol {
+        list-style: none;
+        padding-left: 0;
+        counter-reset: counter;
+        & li:before {
+            content: "0" counter(counter) "/ ";
+        	counter-increment: counter;
+            font-weight: bold;
+        }
+    }
+}

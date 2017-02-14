@@ -2,3 +2,7 @@
 @import 'config/_breakpoints.css';
 @import 'config/_grid.css';
 @import 'config/_typography.css';
+@import 'partials/_hero.css';
+@import 'partials/_description.css';
+@import 'partials/_emoji.css';
+@import 'partials/_contact.css';
