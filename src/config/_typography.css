@@ -1,7 +1,10 @@
 html {
     font-family: "acumin-pro", sans-serif;
-    font-size: 28px;
+    font-size: 25px;
     -webkit-font-smoothing: antialiased;
+    @media (--b-laptop) {
+        font-size: 28px;
+    }
 }
 
 /*Copy & Lists*/
@@ -68,7 +71,13 @@ h2 {
 }
 
 h3 {
-    font-size: 2.1428571429em;
+    font-size: 1.25em;
+    @media (--b-tablet) {
+        font-size: 1.75em;
+    }
+    @media (--b-laptop) {
+        font-size: 2.1428571429em;
+    }
 }
 
 h4,
@@ -78,7 +87,13 @@ h4,
 }
 
 h5 {
-    font-size: 3.4642857143em;
+    font-size: 1.8em;
+    @media (--b-tablet) {
+        font-size: 2.2em;
+    }
+    @media (--b-laptop) {
+        font-size: 3.4642857143em;
+    }
 }
 
 h6 {

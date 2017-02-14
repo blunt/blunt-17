@@ -1,5 +1,8 @@
 .contact {
-    margin-top: 200px;
+    margin-top: 15vw;
+    @media (--b-imac) {
+        margin-top: 200px;
+    }
     & h6 {
         margin-top: 45px;
     }

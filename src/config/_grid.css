@@ -7,6 +7,12 @@ html {
 
 .row {
     create-row: 1320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    @media (--b-laptop) {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 .column {
@@ -19,7 +25,7 @@ html {
 
 @media (--b-tablet) {
     .medium {
-        create-grid: 4;
+        create-grid: 6;
     }
 }
 
