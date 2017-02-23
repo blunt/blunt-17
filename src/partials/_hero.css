@@ -1,7 +1,29 @@
+:root {
+    --first-transform: scale(1.02);
+    --last-transform: scale(1);
+
+    --first-opacity: 0;
+    --last-opacity: 1;
+}
+
+@keyframes fade {
+    0 {
+        opacity: var(--first-opacity);
+        transform: var(--first-transform);
+    }
+    100% {
+        opacity: var(--last-opacity);
+        transform: var(--last-transform);
+    }
+}
+
 .logo {
     margin-top: 8vw;
     max-width: 100%;
     height: auto;
+    opacity: var(--first-opacity);
+    transform: var(--first-transform);
+    animation: fade .08s 1.8s forwards;
     @media (--b-imac) {
         margin-top: 125px;
     }
@@ -12,6 +34,17 @@
     margin-bottom: 15vw;
     @media (--b-imac) {
         margin-bottom: 200px;
+    }
+    & span {
+        opacity: var(--first-opacity);
+        display: inline-block;
+        animation: fade .1s forwards;
+    }
+    & span:first-child {
+        animation-delay: 2.6s;
+    }
+    & span:last-child {
+        animation-delay: 2.8s;
     }
 }
 
