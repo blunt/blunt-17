@@ -1,27 +1,31 @@
 html {
     font-family: "acumin-pro", sans-serif;
-    font-size: 25px;
+    font-size: 28px;
     -webkit-font-smoothing: antialiased;
     color: #000;
     background: #fff;
-    @media (--b-laptop) {
-        font-size: 28px;
-    }
 }
 
 /*Copy & Lists*/
-p {
+p,
+ul,
+ol {
     line-height: 1.3;
     margin-bottom: 0;
     margin-top: 1.5em;
-    font-size: 1em;
+    font-size: .65em;
+    @media (--b-tablet) {
+        font-size: .8em;
+    }
+    @media (--b-desktop) {
+        font-size: 1em;
+    }
 }
 
 ul,
 ol {
     margin-bottom: 1.5em;
     margin-top: 1.5em;
-    font-size: 1em;
 }
 
 ul {
@@ -67,18 +71,43 @@ h1 {
 }
 
 h2 {
-    font-size: 2.8em;
+    font-size: 1.2em;
     margin-top: 1.2em;
+    @media (--b-tablet) {
+        font-size: 1.5em;
+    }
+    @media (--b-laptop) {
+        font-size: 1.75em;
+    }
+    @media (--b-desktop) {
+        font-size: 2.8em;
+    }
+}
+
+.tagline {
+  font-size: .8em;
+  @media (--b-tablet) {
+      font-size: 1em;
+  }
+  @media (--b-laptop) {
+      font-size: 1.1em;
+  }
+  @media (--b-desktop) {
+      font-size: 1.7em;
+  }
 }
 
 h3 {
-    font-size: 1.25em;
+    font-size: 1em;
     font-weight: 400;
     line-height: 1.5em;
     @media (--b-tablet) {
-        font-size: 1.75em;
+        font-size: 1.5em;
     }
     @media (--b-laptop) {
+        font-size: 1.75em;
+    }
+    @media (--b-desktop) {
         font-size: 2.2em;
     }
 }
@@ -86,23 +115,44 @@ h3 {
 h4,
 .h4 {
     font-weight: 400;
-    font-size: 1.6785714286em;
+    font-size: 1em;
+    @media (--b-tablet) {
+        font-size: 1.3em;
+    }
+    @media (--b-desktop) {
+        font-size: 1.6em;
+    }
 }
 
 h5 {
-    font-size: 1.8em;
+    font-size: 1.5em;
     @media (--b-tablet) {
-        font-size: 2.2em;
+        font-size: 2em;
     }
     @media (--b-laptop) {
+        font-size: 2.5em;
+    }
+    @media (--b-desktop) {
         font-size: 3.3em;
     }
 }
 
 h6 {
-    font-size: 1em;
+    font-size: 1.4em;
     font-weight: 400;
     margin-top: 1em;
+    margin-bottom: .2em;
+    line-height: 1em;
+    & span {
+      font-size: .8em;
+      display: block;
+    }
+    @media (--b-tablet) {
+        font-size: 1.5em;
+    }
+    @media (--b-desktop) {
+        font-size: 1.7em;
+    }
 }
 
 a {

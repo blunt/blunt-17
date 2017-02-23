@@ -19,13 +19,22 @@ html {
     create-column: 40px;
 }
 
-.small {
-    create-grid: 3;
+@media (--b-mobile) {
+  .small {
+      create-grid: 8;
+  }
+
+  .small-push {
+      create-push: 8;
+  }
 }
 
 @media (--b-tablet) {
     .medium {
-        create-grid: 6;
+        create-grid: 8;
+    }
+    .medium-push {
+        create-push: 8;
     }
 }
 

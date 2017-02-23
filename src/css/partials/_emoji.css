@@ -21,7 +21,9 @@
   font-size: .8em;
 }
 
-.emoji-wrapper:hover {
+.emoji-wrapper {
+  margin-bottom: 4em;
+  &:hover {
     & .wave {
         transform: rotate(-7deg);
     }
@@ -33,4 +35,8 @@
     & .heart_eyes_cat .eye {
         transform: scale(1.1);
     }
+  }
+  @media (--b-tablet) {
+    margin-bottom: 4em;
+  }
 }
