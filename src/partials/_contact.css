@@ -3,7 +3,8 @@
     @media (--b-imac) {
         margin-top: 200px;
     }
-    & h6 {
-        margin-top: 45px;
-    }
+}
+
+.cta {
+  margin-bottom: 1.5em;
 }

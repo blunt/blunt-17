@@ -1,9 +1,9 @@
 .emoji {
-    width: 50px;
+    width: 70px;
 
     &,
     & * {
-        transition: transform .1s ease-in-out;
+        transition: transform .2s ease-in-out;
     }
 
     &.wave {
@@ -15,6 +15,10 @@
             transform-origin: bottom center;
         }
     }
+}
+
+.emoji-wrapper a {
+  font-size: .8em;
 }
 
 .emoji-wrapper:hover {

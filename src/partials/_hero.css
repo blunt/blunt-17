@@ -1,5 +1,5 @@
 .logo {
-    margin-top: 10vw;
+    margin-top: 8vw;
     max-width: 100%;
     height: auto;
     @media (--b-imac) {
@@ -16,5 +16,5 @@
 }
 
 .tagline {
-    margin-top: 80px;
+    margin-top: 60px;
 }

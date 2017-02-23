@@ -2,6 +2,8 @@ html {
     font-family: "acumin-pro", sans-serif;
     font-size: 25px;
     -webkit-font-smoothing: antialiased;
+    color: #000;
+    background: #fff;
     @media (--b-laptop) {
         font-size: 28px;
     }
@@ -65,24 +67,25 @@ h1 {
 }
 
 h2 {
-    font-size: 2.828em;
-    margin-top: 1em;
-    font-family: "matrix-ii";
+    font-size: 2.8em;
+    margin-top: 1.2em;
 }
 
 h3 {
     font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.5em;
     @media (--b-tablet) {
         font-size: 1.75em;
     }
     @media (--b-laptop) {
-        font-size: 2.1428571429em;
+        font-size: 2.2em;
     }
 }
 
 h4,
 .h4 {
-    font-family: "matrix-ii";
+    font-weight: 400;
     font-size: 1.6785714286em;
 }
 
@@ -92,28 +95,34 @@ h5 {
         font-size: 2.2em;
     }
     @media (--b-laptop) {
-        font-size: 3.4642857143em;
+        font-size: 3.3em;
     }
 }
 
 h6 {
-    font-family: "matrix-ii";
     font-size: 1em;
+    font-weight: 400;
+    margin-top: 1em;
 }
 
 a {
     color: #000;
     text-decoration: none;
     padding-bottom: 3px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #000;
     transition: border-color .15s ease-in-out;
     &:hover {
         border-color: #fff;
     }
 }
 
-em {
+em, strong {
     font-family: "matrix-ii";
+    font-weight: 400;
+}
+
+strong {
+  font-weight: 700;
 }
 
 /*Tables*/
