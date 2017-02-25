@@ -18,3 +18,10 @@
 .tagline {
     margin-top: 60px;
 }
+
+#last-hero {
+    display: none;
+    @media (--b-laptop) {
+        display: block;
+    }
+}

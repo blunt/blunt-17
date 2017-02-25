@@ -1021,6 +1021,17 @@ code {
     margin-top: 60px;
 }
 
+#last-hero {
+    display: none
+}
+
+@media (min-width: 960px) {
+
+  #last-hero {
+    display: block;
+  }
+    }
+
 .description {
 }
 
