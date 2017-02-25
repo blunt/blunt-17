@@ -1,0 +1,42 @@
+.emoji {
+    width: 70px;
+
+    &,
+    & * {
+        transition: transform .2s ease-in-out;
+    }
+
+    &.wave {
+        transform-origin: bottom center;
+    }
+
+    &.heart_eyes_cat {
+        & .eye {
+            transform-origin: bottom center;
+        }
+    }
+}
+
+.emoji-wrapper a {
+  font-size: .8em;
+}
+
+.emoji-wrapper {
+  margin-bottom: 4em;
+  &:hover {
+    & .wave {
+        transform: rotate(-7deg);
+    }
+
+    & .bear .nose {
+        transform: translateX(3px);
+    }
+
+    & .heart_eyes_cat .eye {
+        transform: scale(1.1);
+    }
+  }
+  @media (--b-tablet) {
+    margin-bottom: 4em;
+  }
+}

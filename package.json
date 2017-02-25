@@ -19,6 +19,7 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
+    "gulp-file-include": "^1.0.0",
     "gulp-postcss": "^6.2.0",
     "gulp-rename": "^1.2.2",
     "postcss-cssnext": "^2.8.0",

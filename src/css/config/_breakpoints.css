@@ -3,3 +3,4 @@
 @custom-media --b-ipad (min-width: 768px);
 @custom-media --b-laptop (min-width: 960px);
 @custom-media --b-desktop (min-width: 1024px);
+@custom-media --b-imac (min-width: 1500px);

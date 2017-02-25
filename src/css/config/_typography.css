@@ -1,0 +1,204 @@
+html {
+    font-family: "acumin-pro", sans-serif;
+    font-size: 28px;
+    -webkit-font-smoothing: antialiased;
+    color: #000;
+    background: #fff;
+}
+
+/*Copy & Lists*/
+p,
+ul,
+ol {
+    line-height: 1.3;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+    font-size: .65em;
+    @media (--b-tablet) {
+        font-size: .8em;
+    }
+    @media (--b-desktop) {
+        font-size: 1em;
+    }
+}
+
+ul,
+ol {
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li,
+ol li {
+    line-height: 1.3;
+    margin-bottom: 1.5em;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+blockquote {
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+/*Headings*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.3;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-top: 1.2em;
+    @media (--b-tablet) {
+        font-size: 1.5em;
+    }
+    @media (--b-laptop) {
+        font-size: 1.75em;
+    }
+    @media (--b-desktop) {
+        font-size: 2.8em;
+    }
+}
+
+.tagline {
+  font-size: .8em;
+  @media (--b-tablet) {
+      font-size: 1em;
+  }
+  @media (--b-laptop) {
+      font-size: 1.1em;
+  }
+  @media (--b-desktop) {
+      font-size: 1.7em;
+  }
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    @media (--b-tablet) {
+        font-size: 1.5em;
+    }
+    @media (--b-laptop) {
+        font-size: 1.75em;
+    }
+    @media (--b-desktop) {
+        font-size: 2.2em;
+    }
+}
+
+h4,
+.h4 {
+    font-weight: 400;
+    font-size: 1em;
+    @media (--b-tablet) {
+        font-size: 1.3em;
+    }
+    @media (--b-desktop) {
+        font-size: 1.6em;
+    }
+}
+
+h5 {
+    font-size: 1.5em;
+    @media (--b-tablet) {
+        font-size: 2em;
+    }
+    @media (--b-laptop) {
+        font-size: 2.5em;
+    }
+    @media (--b-desktop) {
+        font-size: 3.3em;
+    }
+}
+
+h6 {
+    font-size: 1.4em;
+    font-weight: 400;
+    margin-top: 1em;
+    margin-bottom: .2em;
+    line-height: 1em;
+    & span {
+      font-size: .8em;
+      display: block;
+    }
+    @media (--b-tablet) {
+        font-size: 1.5em;
+    }
+    @media (--b-desktop) {
+        font-size: 1.7em;
+    }
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #000;
+    transition: border-color .15s ease-in-out;
+    &:hover {
+        border-color: #fff;
+    }
+}
+
+em, strong {
+    font-family: "matrix-ii";
+    font-weight: 400;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/*Tables*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 1.5em;
+}
+
+table td,
+table th {
+    line-height: 33px;
+    padding: 0;
+}
+
+/*Code blocks*/
+code {
+    vertical-align: bottom;
+}
+
+/*Leading paragraph text*/
+.lead {
+    font-size: 1.414em;
+}
+
+/*Hug the block above you*/
+.hug {
+    margin-top: 0;
+}

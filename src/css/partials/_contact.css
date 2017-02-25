@@ -1,0 +1,10 @@
+.contact {
+    margin-top: 15vw;
+    @media (--b-imac) {
+        margin-top: 200px;
+    }
+}
+
+.cta {
+  margin-bottom: 1.5em;
+}

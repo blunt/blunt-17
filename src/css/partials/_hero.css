@@ -1,0 +1,27 @@
+.logo {
+    margin-top: 8vw;
+    max-width: 100%;
+    height: auto;
+    @media (--b-imac) {
+        margin-top: 125px;
+    }
+}
+
+.subtitle {
+    margin-top: 30px;
+    margin-bottom: 15vw;
+    @media (--b-imac) {
+        margin-bottom: 200px;
+    }
+}
+
+.tagline {
+    margin-top: 60px;
+}
+
+#last-hero {
+    display: none;
+    @media (--b-laptop) {
+        display: block;
+    }
+}
