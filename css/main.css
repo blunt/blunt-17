@@ -1122,5 +1122,9 @@ code {
     }
 
 .cta {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5em
+}
+
+.cta a {
+  border-bottom-width: .06em;
 }
