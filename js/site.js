@@ -18,7 +18,7 @@ function infiniteScroll() {
         window.onscroll = function() {
             var scrollWindowPos = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
 
-            if(scrollWindowPos >= origDocHeight ) {
+            if(scrollWindowPos > origDocHeight ) {
                 window.scrollTo(0,0);
             }
             if(scrollWindowPos <= 0 ) {
