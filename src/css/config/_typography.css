@@ -6,6 +6,16 @@ html {
     background: #fff;
 }
 
+/* Selection */
+::selection {
+  background: #000;
+  color: #fff;
+}
+::-moz-selection {
+  background: #000;
+  color: #fff;
+}
+
 /*Copy & Lists*/
 p,
 ul,

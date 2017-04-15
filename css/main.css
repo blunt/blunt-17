@@ -708,6 +708,23 @@ html {
     background: #fff;
 }
 
+/* Selection */
+
+::-moz-selection {
+  background: #000;
+  color: #fff;
+}
+
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #000;
+  color: #fff;
+}
+
 /*Copy & Lists*/
 
 p,
