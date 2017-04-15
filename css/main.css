@@ -701,7 +701,7 @@ html {
 }
 
 html {
-    font-family: "acumin-pro", sans-serif;
+    font-family: "maiola", sans-serif;
     font-size: 28px;
     -webkit-font-smoothing: antialiased;
     color: #000;
@@ -846,35 +846,38 @@ h3 {
 @media (min-width: 640px) {
 
   h3 {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
     }
 
 @media (min-width: 960px) {
 
   h3 {
-    font-size: 1.75em;
+    font-size: 1.4em;
   }
     }
 
 @media (min-width: 1024px) {
 
   h3 {
-    font-size: 2.2em;
+    font-size: 1.6em;
   }
     }
 
 h4,
 .h4 {
-    font-weight: 400;
-    font-size: 1em
+    font-weight: 900;
+    font-size: .7em;
+    font-family: "acumin-pro-wide", -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+    font-style: normal;
+    text-transform: uppercase
 }
 
 @media (min-width: 640px) {
 
   h4,
 .h4 {
-    font-size: 1.3em;
+    font-size: .8em;
   }
     }
 
@@ -882,32 +885,47 @@ h4,
 
   h4,
 .h4 {
-    font-size: 1.6em;
+    font-size: 1em;
   }
     }
 
 h5 {
-    font-size: 1.5em
+    font-weight: 500
 }
 
-@media (min-width: 640px) {
+h5 span {
+  font-size: 1em;
+}
 
-  h5 {
-    font-size: 2em;
-  }
-    }
+h5 a {
+  font-size: 2em;
+}
 
 @media (min-width: 960px) {
 
   h5 {
-    font-size: 2.5em;
+}
+
+  h5 span {
+    font-size: 1.5em;
+  }
+
+  h5 a {
+    font-size: 3em;
   }
     }
 
 @media (min-width: 1024px) {
 
   h5 {
-    font-size: 3.3em;
+}
+
+  h5 span {
+    font-size: 2.5em;
+  }
+
+  h5 a {
+    font-size: 4em;
   }
     }
 
@@ -941,7 +959,6 @@ h6 span {
 a {
     color: #000;
     text-decoration: none;
-    padding-bottom: 3px;
     border-bottom: 1px solid #000;
     -webkit-transition: border-color .15s ease-in-out;
     transition: border-color .15s ease-in-out
@@ -952,12 +969,11 @@ a:hover {
 }
 
 em, strong {
-    font-family: "matrix-ii";
-    font-weight: 400;
-}
-
-strong {
-  font-weight: 700;
+    font-family: "acumin-pro-wide", -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: .6em;
+    font-style: normal;
 }
 
 /*Tables*/
@@ -1045,6 +1061,9 @@ code {
   content: "0" counter(counter) "/ ";
   counter-increment: counter;
   font-weight: bold;
+  font-family: "acumin-pro-wide", -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+  font-size: .7em;
+  margin-right: .4em;
 }
 
 .emoji {
