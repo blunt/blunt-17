@@ -4,9 +4,12 @@
         padding-left: 0;
         counter-reset: counter;
         & li:before {
-            content: "0" counter(counter) "/ ";
+          content: "0" counter(counter) "/ ";
         	counter-increment: counter;
-            font-weight: bold;
+          font-weight: bold;
+          font-family: "acumin-pro-wide", -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+          font-size: .7em;
+          margin-right: .4em;
         }
     }
 }
