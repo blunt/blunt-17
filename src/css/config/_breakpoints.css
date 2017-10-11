@@ -1,6 +1,0 @@
-@custom-media --b-mobile (min-width: 400px);
-@custom-media --b-tablet (min-width: 640px);
-@custom-media --b-ipad (min-width: 768px);
-@custom-media --b-laptop (min-width: 960px);
-@custom-media --b-desktop (min-width: 1024px);
-@custom-media --b-imac (min-width: 1500px);

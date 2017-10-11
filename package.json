@@ -1,29 +1,49 @@
 {
-  "name": "blunt",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/blunt/blunt"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/blunt/blunt/issues"
-  },
-  "homepage": "https://github.com/blunt/blunt#readme",
+  "name": "tachyons",
+  "version": "4.8.1",
+  "description": "Functional CSS for humans",
+  "author": "mrmrs",
+  "style": "css/tachyons.min.css",
+  "main": "css/tachyons.css",
+  "files": [
+    "css",
+    "src"
+  ],
+  "repository": "tachyons-css/tachyons",
+  "keywords": [
+    "css",
+    "oocss",
+    "postcss",
+    "functional css",
+    "design",
+    "responsive",
+    "performance"
+  ],
+  "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-connect": "^5.0.0",
-    "gulp-file-include": "^1.0.0",
-    "gulp-postcss": "^6.2.0",
-    "gulp-rename": "^1.2.2",
-    "postcss-cssnext": "^2.8.0",
-    "postcss-easy-import": "^1.0.1",
-    "postcss-simple-grid": "^0.7.1"
+    "copy-files": "^0.1.0",
+    "immutable-css-cli": "^1.1.1",
+    "normalize.css": "^7.0.0",
+    "tachyons-cli": "^1.0.11",
+    "tachyons-modules": "^1.1.10",
+    "watch": "^1.0.2"
+  },
+  "contributors": [
+    {
+      "name": "adam morse",
+      "email": "hi@mrmrs.cc"
+    },
+    {
+      "name": "john otander",
+      "url": "http://johnotander.com"
+    }
+  ],
+  "scripts": {
+    "start": "npm run build:watch",
+    "mutations": "immutable-css src/tachyons.css --strict",
+    "build": "npm run build:css && npm run build:minify",
+    "build:css": "tachyons src/tachyons.css > css/tachyons.css",
+    "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
+    "build:watch": "watch \"npm run build\" ./src/"
   }
 }
