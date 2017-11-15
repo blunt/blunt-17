@@ -31,8 +31,8 @@ if ("ontouchstart" in document.documentElement) {
     var mouseX = 0;
     var mouseY = 0;
     function mousePos (e) {
-        mouseX = event.clientX;
-        mouseY = event.clientY;
+        mouseX = e.clientX;
+        mouseY = e.clientY;
 
         var mouseXLast = mouseX / 25 + 50;
         var mouseYLast = mouseY / 25;
